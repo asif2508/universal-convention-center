@@ -1,0 +1,31 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common style  */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header style  */
+.navigation-bar{
+    color: #3E3E3E;
+}
+.book-btn{
+    text-decoration: none;
+    padding: 6px 10px;
+    font-weight: bolder;
+    background-color: #3F87F5;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #3F87F5;
+}
+.book-btn:hover{
+    
+    color: #3F87F5;
+    background-color: white;
+}
+.size-class{
+    width: 100%;
+    height: 35%;
+}
