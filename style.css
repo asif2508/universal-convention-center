@@ -49,3 +49,99 @@ body{
 .pack-para{
     color: #848199;
 }
+.card-title{
+    color: #231D4F;
+    font-size: 36px;
+    font-weight: bold;
+}
+.card-title-1{
+    color: #231D4F;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.card-style{
+    box-shadow: 5px 5px 8px 12px rgba(201, 201, 201, 0.504);
+}
+.card-style:hover{
+    transform: scale(1.03);
+    transition: transform 2s ease-in-out;
+    background-color: #2878f0;
+}
+
+.card-style:hover .card-title{
+    color: white;   
+}
+
+.card-style:hover .card-title-1{
+    color: white;   
+}
+
+.card-style:hover .pack-para{
+    color: white;   
+}
+.card-style:hover .plan-button{
+    background-color: white;
+}
+#card-style-hot{
+    background-color: #2878f0;
+    box-shadow: 5px 5px 8px 12px rgba(201, 201, 201, 0.504);
+    position: relative;
+
+}
+#card-style-hot .card-title{
+    color: white;   
+}
+#card-style-hot .card-title-1{
+    color: white;   
+}
+
+#card-style-hot .pack-para{
+    color: white;   
+}
+#card-style-hot .plan-button{
+    background-color: white;
+}
+
+#card-style-hot:hover{
+    transform: scale(1.03);
+    transition: transform 2s ease-in-out;
+    background-color: red;
+
+}
+.note-bar{
+    background-color: red;
+    position: absolute;
+    margin-bottom: 5%;
+}
+.package-btn{
+    background-color: red;
+    overflow: hidden;
+}
+.package-btn:hover{
+    background-color: red;
+    overflow: hidden;
+}
+
+.card-design{
+    box-shadow: 5px 5px 8px 12px rgba(201, 201, 201, 0.504);
+}
+.card-text{
+    color: #6C6C6C;
+}
+.pro-color{
+    color: #747474;
+}
+
+.see-all-btn{
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: rgb(248, 34, 123);
+    margin-left: 80%;
+    color: white;
+    font-weight: bold;
+}
+.see-all-btn:hover{
+    background-color: white;
+    color: rgb(248, 34, 123);
+    border: 1px solid rgb(248, 34, 123);;
+}
