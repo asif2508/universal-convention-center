@@ -65,7 +65,7 @@ body{
 .card-style:hover{
     transform: scale(1.03);
     transition: transform 2s ease-in-out;
-    background-color: #2878f0;
+    background-color: red;
 }
 
 .card-style:hover .card-title{
@@ -134,9 +134,9 @@ body{
 
 .see-all-btn{
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 8px 15px;
     background-color: rgb(248, 34, 123);
-    margin-left: 80%;
+    margin-left: 47%;
     color: white;
     font-weight: bold;
 }
@@ -144,4 +144,10 @@ body{
     background-color: white;
     color: rgb(248, 34, 123);
     border: 1px solid rgb(248, 34, 123);;
+}
+
+/* toast style  */
+.toast-body{
+    color: #2878f0;
+    border-left: 3px solid blue;
 }
